@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="index.css">
+        <title>Modulo JavaScript</title>
+    </head>
+    <body>
+        <div class="vertical">
+            <h1>Modulo JavaScript</h1>
+            <p>Ingresa una frase</p><input id="myinput" />
+            <div class="horizontal"><button id="enviar" onclick="enviar()">enviar</button><button id="borrar" onclick="borrar()">borrar</button></div>
+            <p>Selecciona el objeto a agregar o borrar texto</p><select id="figuras">
+                <option value="square">cuadrado</option>
+                <option value="rectangle">rectangulo</option>
+                <option value="circle">circulo</option>
+            </select>
+        </div>
+        <div class="horizontal">
+            <div id="circle"></div>
+            <div id="square"></div>
+            <div id="rectangle"></div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
